@@ -23,19 +23,19 @@ This note discusses key concepts and detailed calculations relevant to Simultane
 ## Notes on Kalman Filter (KF, EKF, ESKF, IEKF, IESKF)
 This note deals with various Kalman Filter models including the Kalman Filter (KF), Extended Kalman Filter (EKF), Error-State Kalman Filter (ESKF), Iterated Extended Kalman Filter (IEKF), and Iterated Error-State Kalman Filter (IESKF). Here’s a structured summary:
 
-- Kalman Filter (KF):
+- **Kalman Filter (KF):**
   - It operates on a linear prediction and correction framework using Gaussian distributions to estimate state variables.
   - The process involves a prediction step followed by a correction step based on sensor measurements.
-- Extended Kalman Filter (EKF):
+- **Extended Kalman Filter (EKF):**
   - It extends the KF to handle non-linear models by linearizing around the current estimate using a first-order Taylor approximation.
   - Similar to KF, it comprises prediction and correction steps but utilizes the Jacobian matrix for non-linear transformations.
-- Error-State Kalman Filter (ESKF):
+- **Error-State Kalman Filter (ESKF):**
   - The ESKF estimates the error state rather than the actual state variables. This is beneficial in scenarios where the model dynamics are well known.
   - It employs a state augmentation approach where the state estimate is corrected by an error estimate.
-- Iterated Extended Kalman Filter (IEKF):
+- **Iterated Extended Kalman Filter (IEKF):**
   - The IEKF further extends the EKF by iterating the correction step until the changes converge to a threshold, improving the accuracy of the state estimation.
   - It recalculates the Jacobian during each iteration, adjusting the state estimates more finely.
-- Iterated Error-State Kalman Filter (IESKF):
+- **Iterated Error-State Kalman Filter (IESKF):**
   - This combines the iterative approach of IEKF with the error state concept of ESKF.
   - It focuses on refining the error estimates iteratively, which can lead to more precise state estimates in complex dynamic systems.
  
