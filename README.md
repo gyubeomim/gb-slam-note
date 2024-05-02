@@ -1,7 +1,7 @@
 This is my SLAM-related note archive. The notes are written in English. Feel free to ask a question while reading, or see [my blog](https://alida.tistory.com) for more details.
 
 
-# "Notes on Various Errors and Jacobian Derivation for SLAM" 
+## Notes on Various Errors and Jacobian Derivation for SLAM 
 This note discusses key concepts and detailed calculations relevant to Simultaneous Localization and Mapping (SLAM), focusing on error analysis and Jacobian matrices. Here's a structured summary of its contents:
 - **Introduction and Definitions**: The document introduces various errors used in SLAM such as reprojection error, photometric error, relative pose error, and line reprojection error, alongside their mathematical formulations.
 - **Error and Optimization Formulation**:
