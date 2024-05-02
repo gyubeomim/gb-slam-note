@@ -40,5 +40,13 @@ This note deals with various Kalman Filter models including the Kalman Filter (K
   - It focuses on refining the error estimates iteratively, which can lead to more precise state estimates in complex dynamic systems.
  
 
+## Notes on Lie Theory (SO3, SE3)
+This note deals with the mathematical concepts related to Lie theory, primarily focusing on applications within robotics and computer vision for tasks such as SLAM (Simultaneous Localization and Mapping). Here’s a structured summary:
+Most of the content is written referring to Joan Solà's **Lie theory for the roboticist** YouTube video.
 
+- **Introduction and Group Theory:** The document begins by introducing basic group theory concepts, including the characteristics of groups such as associativity, identity, and inversion. It emphasizes Lie groups with a focus on their structure as smooth manifolds, meaning they can be continuously and differentiably transformed.
+- **Lie Groups and Algebra**: It discusses specific properties and operations within the Lie groups SO(3) and SE(3), which represent rotations and rigid body motions in three-dimensional space, respectively. The document explains how elements like the exponential and logarithm mappings provide connections between Lie algebra and Lie groups, facilitating operations and transformations in robotics applications.
+- **Applications in Robotics:** The bulk of the text explains how these mathematical structures apply to robotics, particularly in algorithms like the Extended Kalman Filter (EKF) and SLAM. It outlines how Lie groups help manage and optimize the representation of 3D object rotations and movements, contributing to more efficient and accurate computations in robotic navigation and mapping.
+- Advanced Mathematical Operations: It covers more complex operations such as the Jacobian matrices in Lie groups, which are crucial for understanding how changes in one space affect another, a key component in robotic control systems.
+- **Real-world Applications**: The document provides examples of how these theories are applied in real-world robotics, such as in pose estimation and map-based localization using EKF, where Lie groups and algebras facilitate the computation of robot positioning and orientation.
 
