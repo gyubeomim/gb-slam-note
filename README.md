@@ -14,7 +14,7 @@ This note discusses key concepts and detailed calculations relevant to Simultane
 - **Jacobian Derivations**:
   - Extensive derivations of Jacobian matrices for different SLAM components like camera pose, map points, and motion parameters.
   - Application of Lie theory to optimize rotation representations and transformations, enhancing computational efficiency.
-- Code Implementations: References to specific software implementations which provide practical insights into how these theories are applied in real-world SLAM systems.
+- **Code Implementations**: References to specific software implementations which provide practical insights into how these theories are applied in real-world SLAM systems.
 - **Advanced Topics**:
   - Exploration of more complex SLAM error types and their Jacobians, such as line reprojection and IMU measurement errors.
   - Discussion on the implications of these errors on SLAM accuracy and performance.
