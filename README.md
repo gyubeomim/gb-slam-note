@@ -75,3 +75,29 @@ This note is modular summary of the contents covered the book "Multiple View Geo
   - Methods and theorems related to 3D reconstruction, including the projective reconstruction theorem and stratified reconstruction techniques, along with camera calibration techniques from single and multiple views.
 - **Computation of Camera Matrix and Structure from Motion**:
   - Detailed methods for computing the camera matrix and addressing the structure from motion problems, including various algorithms and error metrics.
+
+
+## Notes on Plücker Coordinates
+This note deals with the Plücker Coordinates.
+- **Introduction**
+  - Plücker Coordinates offer a method to represent lines in 3D space using a point in six-dimensional space. This system is commonly used in computer graphics, robotics, and other technical fields.
+- **How to Represent a Line in 3D Space**
+  - Lines can be represented using points, direction vectors, or the intersection of planes.
+- **Plücker Coordinate Representation**
+  - Detailed methods for using Plücker Coordinates to define lines are discussed. This includes mathematical representations and the relationship between line elements.
+- **Graßmann–Plücker Relations**
+  - These relations provide a mathematical constraint necessary for the Plücker Coordinates to accurately represent lines.
+- **Distance to the Origin**
+  - Formulas to calculate the perpendicular distance from the origin to the line.
+- **Up to Scale Uniqueness**
+  - Discussion on how lines can be uniquely represented up to a scalar multiplication factor.
+- **Plücker Matrix**
+  - Introduction to the Plücker matrix, its properties, and its use in representing lines in various dimensions.
+- **Dual Plücker Coordinate Representation**
+  - A dual system of the Plücker Coordinates used for representing lines through the intersection of planes.
+- **Uses**
+  - Practical applications of Plücker Coordinates, including the intersection of lines, joining and meeting of lines and planes, and their uses in projective geometries.
+- **Plücker Line-based Optimization**
+  - How Plücker Coordinates are used in optimization algorithms and the specifics of transforming these coordinates for computational models.
+- **Error Function Formulation**
+  - Details on how to use these coordinates in optimization problems, including the calculation of reprojection errors and adjustments using Jacobian matrices.
