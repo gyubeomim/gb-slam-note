@@ -44,11 +44,16 @@ This note deals with various Kalman Filter models including the Kalman Filter (K
 This note deals with the mathematical concepts related to Lie theory, primarily focusing on applications within robotics and computer vision for tasks such as SLAM (Simultaneous Localization and Mapping). Here’s a structured summary:
 Most of the content is written referring to Joan Solà's **Lie theory for the roboticist** YouTube video.
 
-- **Introduction and Group Theory:** The document begins by introducing basic group theory concepts, including the characteristics of groups such as associativity, identity, and inversion. It emphasizes Lie groups with a focus on their structure as smooth manifolds, meaning they can be continuously and differentiably transformed.
-- **Lie Groups and Algebra**: It discusses specific properties and operations within the Lie groups SO(3) and SE(3), which represent rotations and rigid body motions in three-dimensional space, respectively. The document explains how elements like the exponential and logarithm mappings provide connections between Lie algebra and Lie groups, facilitating operations and transformations in robotics applications.
-- **Applications in Robotics:** The bulk of the text explains how these mathematical structures apply to robotics, particularly in algorithms like the Extended Kalman Filter (EKF) and SLAM. It outlines how Lie groups help manage and optimize the representation of 3D object rotations and movements, contributing to more efficient and accurate computations in robotic navigation and mapping.
-- Advanced Mathematical Operations: It covers more complex operations such as the Jacobian matrices in Lie groups, which are crucial for understanding how changes in one space affect another, a key component in robotic control systems.
-- **Real-world Applications**: The document provides examples of how these theories are applied in real-world robotics, such as in pose estimation and map-based localization using EKF, where Lie groups and algebras facilitate the computation of robot positioning and orientation.
+- **Introduction and Group Theory:**
+  - The document begins by introducing basic group theory concepts, including the characteristics of groups such as associativity, identity, and inversion. It emphasizes Lie groups with a focus on their structure as smooth manifolds, meaning they can be continuously and differentiably transformed.
+- **Lie Groups and Algebra**:
+  - It discusses specific properties and operations within the Lie groups SO(3) and SE(3), which represent rotations and rigid body motions in three-dimensional space, respectively. The document explains how elements like the exponential and logarithm mappings provide connections between Lie algebra and Lie groups, facilitating operations and transformations in robotics applications.
+- **Applications in Robotics:**
+  - The bulk of the text explains how these mathematical structures apply to robotics, particularly in algorithms like the Extended Kalman Filter (EKF) and SLAM. It outlines how Lie groups help manage and optimize the representation of 3D object rotations and movements, contributing to more efficient and accurate computations in robotic navigation and mapping.
+- **Advanced Mathematical Operations**:
+  - It covers more complex operations such as the Jacobian matrices in Lie groups, which are crucial for understanding how changes in one space affect another, a key component in robotic control systems.
+- **Real-world Applications**:
+  - The document provides examples of how these theories are applied in real-world robotics, such as in pose estimation and map-based localization using EKF, where Lie groups and algebras facilitate the computation of robot positioning and orientation.
 
 
 
@@ -56,16 +61,16 @@ Most of the content is written referring to Joan Solà's **Lie theory for the ro
 This note is modular summary of the contents covered the book "Multiple View Geometry in Computer Vision" by Hartley and Zisserman.
 
 - **Projective Space and Geometry**:
-Concepts of projective space and transformations in 2D, including homogeneous representations for points and lines, degrees of freedom, intersections of lines, and ideal points at infinity.
+  - Concepts of projective space and transformations in 2D, including homogeneous representations for points and lines, degrees of freedom, intersections of lines, and ideal points at infinity.
 - **Conics and Dual Conics**:
-Detailed discussion on conics, tangent lines to conics, and the properties of dual conics which include their representation and the conditions for a line to be tangent to a conic.
+  - Detailed discussion on conics, tangent lines to conics, and the properties of dual conics which include their representation and the conditions for a line to be tangent to a conic.
 - **Projective Transformations**:
-Examination of various types of transformations, such as isometries, similarity transformations, affine transformations, and projective transformations, including their definitions and properties.
+  - Examination of various types of transformations, such as isometries, similarity transformations, affine transformations, and projective transformations, including their definitions and properties.
 - **Camera Models**:
-Introduction to finite and projective camera models, central projections, camera anatomy, and the basic pinhole model along with the transformations involved in imaging.
+  - Introduction to finite and projective camera models, central projections, camera anatomy, and the basic pinhole model along with the transformations involved in imaging.
 - **Epipolar Geometry and the Fundamental Matrix**:
-Discussion on epipolar geometry, the fundamental matrix, and its properties, including geometric and algebraic derivations.
+  - Discussion on epipolar geometry, the fundamental matrix, and its properties, including geometric and algebraic derivations.
 - **3D Reconstruction and Camera Calibration**:
-Methods and theorems related to 3D reconstruction, including the projective reconstruction theorem and stratified reconstruction techniques, along with camera calibration techniques from single and multiple views.
+  - Methods and theorems related to 3D reconstruction, including the projective reconstruction theorem and stratified reconstruction techniques, along with camera calibration techniques from single and multiple views.
 - **Computation of Camera Matrix and Structure from Motion**:
-Detailed methods for computing the camera matrix and addressing the structure from motion problems, including various algorithms and error metrics.
+  - Detailed methods for computing the camera matrix and addressing the structure from motion problems, including various algorithms and error metrics.
