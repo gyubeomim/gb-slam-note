@@ -1,5 +1,8 @@
 This is my SLAM-related note archive. The notes are written in English. Feel free to ask a question while reading, or see [my blog](https://alida.tistory.com) for more details.
 
+## arXiv preprint 
+- [Notes on Kalman Filter (KF, EKF, ESKF, IEKF, IESKF)](https://arxiv.org/abs/2406.06427) 
+- [Notes on Various Errors and Jacobian Derivation for SLAM](https://arxiv.org/abs/2406.06422) 
 
 ## Notes on Various Errors and Jacobian Derivation for SLAM 
 This note discusses key concepts and detailed calculations relevant to Simultaneous Localization and Mapping (SLAM), focusing on error analysis and Jacobian matrices. Here's a structured summary of its contents:
